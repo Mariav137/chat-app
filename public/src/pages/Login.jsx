@@ -82,9 +82,9 @@ export default function Login() {
             name="password"
             onChange={(e) => handleChange(e)}
           />
-          <button type="submit">Log In</button>
+          <button type="submit">Inicio de sesión</button>
           <span>
-            Don't have an account ? <Link to="/register">Create One.</Link>
+          ¿No tiene cuenta? <Link to="/register">Crea una.</Link>
           </span>
         </form>
       </FormContainer>
